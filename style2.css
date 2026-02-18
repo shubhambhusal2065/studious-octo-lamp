@@ -1,0 +1,50 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e1e2f;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;   /* Makes it round */
+  border: 2px solid #fff;
+  object-fit: cover;    /* Keeps image proportion */
+  margin-right: 15px;
+}
+
+/* Name styling */
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff9800; /* Orange hover effect */
+}
